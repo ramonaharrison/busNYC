@@ -1,7 +1,9 @@
-package com.ramonaharrison.busnyc;
+package com.ramonaharrison.busnyc.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.ramonaharrison.busnyc.R;
 
 public class MainActivity extends AppCompatActivity
 {
