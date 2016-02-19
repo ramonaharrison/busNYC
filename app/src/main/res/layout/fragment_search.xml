@@ -8,9 +8,12 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 tools:context="com.ramonaharrison.busnyc.view.SearchActivity$PlaceholderFragment">
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/section_edit_text"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal|top"
+        android:elevation="1dp"/>
 
 </RelativeLayout>
