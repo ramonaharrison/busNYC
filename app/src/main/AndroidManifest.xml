@@ -9,6 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.MainActivity">
+        </activity>
+        <activity android:name=".view.SettingsActivity">
+        </activity>
+        <activity
+            android:name=".view.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
